@@ -92,7 +92,7 @@ $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
   ```
   
-  (((HERE an image)))
+  ![06-empty environment](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/06-empty%20environment.PNG)
   
   
   in TurtleBot3 world environment
@@ -102,7 +102,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
   $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
    ```
    
-   (((here image)))
+   ![07-TurtleBot3 world environment](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/07-TurtleBot3%20world%20environment.PNG)
    
    
    ### Operate TurtleBot3 Burger in Gazebo
@@ -115,7 +115,8 @@ $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
    $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
   ```
   
-  (((here photo)))
+  ![08-teleoperate the turtleBot3](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/08-teleoperate%20the%20turtleBot3.jpg)
+  
   *Note: now you can control turtleBot3 burger using keyboard keys As shown above.*
   
   
@@ -130,29 +131,28 @@ $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
   ```
   
-  (((here photo)))
+  ![09-run turtleBot3 SLAM](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/09-run%20turtleBot3%20SLAM.PNG)
   
   
   create new terminal and run the teleoperation command in part 2.
-  (((here photo)))
+  
+  ![10-teleoperation command to draw the map](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/10-teleoperation%20command%20to%20draw%20the%20map.PNG)
   
   
-  now you can move turtleBot3 burger with keyboard to create map 
-  ((here image))
-  
-  
+  now you can move turtleBot3 burger with keyboard to create the map 
+   
   finally create new terminal ans save the map.
   
   ```bash 
   $ rosrun map_server map_saver -f ~/map
   ````
   
-  (((here an image )))
+  ![11-done of creating the map and saving command](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/11-done%20of%20creating%20the%20map%20and%20saving%20command.PNG)
   
   
   This map will help us navigate the robot and move from a location to destination in a given environment.
   
-  
+  ![12-tha mapping that we made](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/12-tha%20mapping%20that%20we%20made.PNG)
   
   
 
