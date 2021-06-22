@@ -150,6 +150,8 @@ $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
   ![11-done of creating the map and saving command](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/11-done%20of%20creating%20the%20map%20and%20saving%20command.PNG)
   
   
+  
+  ## Purpose of the map
   This map will help us navigate the robot and move from a location to destination in a given environment.
   
   ![12-tha mapping that we made](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/12-tha%20mapping%20that%20we%20made.PNG)
