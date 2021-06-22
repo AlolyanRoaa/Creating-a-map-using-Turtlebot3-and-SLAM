@@ -25,6 +25,10 @@ $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
   ```
   
+  ![01-install dependency package](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/01-install%20dependency%20package.PNG)
+  
+  
+  
  to install turtleBot3 package
   
   
@@ -33,7 +37,10 @@ $ sudo apt-get remove ros-melodic-dynamixel-sdk
 $ sudo apt-get remove ros-melodic-turtlebot3-msgs
 $ sudo apt-get remove ros-melodic-turtlebot3
 ``` 
-  
+ 
+![02-install turtleBot3 packag](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/02-install%20turtleBot3%20packag.PNG) 
+ 
+ 
  you must have a source folder under the cankit workspace folder. Then download and install turtleBot3 packages.
  
  
@@ -45,7 +52,7 @@ $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
  ```
  
- ((((HERE an image))))
+ ![03-download turtleBot3 packages](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/03-download%20turtleBot3%20packages.PNG)
  
  
  now build the downloaded packages, After that the set up will be completed.
@@ -55,7 +62,9 @@ $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
   $ cd ~/catkin_ws && catkin_make
   
   ```
-  (((HERE an Image)))
+  
+  ![04-build the downloaded package](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/04-build%20the%20downloaded%20package.PNG)
+  
   
   ## 2-Simulation with Gazebo
   
@@ -72,7 +81,7 @@ $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulatio
 $ cd ~/catkin_ws && catkin_make
   ```
   
-  (((HERE an image)))
+  ![05-installing the simulation packag.PNG](https://github.com/AlolyanRoaa/Creating-a-map-using-Turtlebot3-and-SLAM/blob/main/05-installing%20the%20simulation%20packag.PNG)
   
   
   To launch the simulation world in empty environment use these commands
@@ -84,6 +93,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
   ```
   
   (((HERE an image)))
+  
   
   in TurtleBot3 world environment
   
