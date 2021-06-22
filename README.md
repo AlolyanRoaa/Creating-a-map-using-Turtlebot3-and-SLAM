@@ -8,6 +8,7 @@ This is documentation of how to set up your PC to control TurtleBot 3 Burger rob
 - PC Set up
 - Simulation with Gazebo
 - creating the Map with SLAM
+- Purpose of The Map
 
 ## 1-PC Set up
 After making sure of the version of ubuntu and ROS using the commands `lsb_release -a` and `printenv ROS_DISTRO` on the terminal. Then install all the dependency packages required for turrlebot3 package.
