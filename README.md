@@ -25,13 +25,19 @@ $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
   ```
   
+ to install turtleBot3 package
+  
+  
+  ```bash
+$ sudo apt-get remove ros-melodic-dynamixel-sdk
+$ sudo apt-get remove ros-melodic-turtlebot3-msgs
+$ sudo apt-get remove ros-melodic-turtlebot3
+``` 
+  
  you must have a source folder under the cankit workspace folder. Then download and install turtleBot3 packages.
  
  
  ```bash
-$ sudo apt-get remove ros-melodic-dynamixel-sdk
-$ sudo apt-get remove ros-melodic-turtlebot3-msgs
-$ sudo apt-get remove ros-melodic-turtlebot3
 $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/src/
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/DynamixelSDK.git
@@ -95,7 +101,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
    in a new terminal after running gazebo in the previous part, run the following command to teleoperate the turtleBot3.
    
    ```bash
-    $ export TURTLEBOT3_MODEL=burger
+   $ export TURTLEBOT3_MODEL=burger
    $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
   ```
   
